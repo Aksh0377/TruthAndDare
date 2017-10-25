@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <string-array name="Dare_Adult">
+        <item>Do 20 push ups now</item>
+        <item>propose a girl/boy</item>
+        <item>Ask a girl/boy for a Date</item>
+        <item>Kiss a girl/boy</item>
+    </string-array>
+
+    <string-array name="Truth_Adult">
+        <item>Name of your first crush</item>
+        <item>Name of your Girlfriend</item>
+        <item>Do you watch porn?</item>
+        <item>Name of Teacher you Had a crush</item>
+    </string-array>
+
+    <string-array name="Dare_teen">
+        <item>Do 10 push ups now</item>
+        <item>buy me a movie ticket</item>
+        <item>buy chocolate box for me</item>
+        <item>Kiss a girl/boy</item>
+    </string-array>
+
+    <string-array name="Truth_teen">
+        <item>Name of your first crush</item>
+        <item>Name of your Girlfriend</item>
+        <item>Do you watch porn?</item>
+        <item>Name of Teacher you Had a crush</item>
+    </string-array>
+
+    <string-array name="Dare_kids">
+        <item>give me glass of water</item>
+        <item>Buy me a Soft Drink</item>
+        <item>Do my Homework</item>
+        <item>wash my cloths</item>
+    </string-array>
+
+    <string-array name="Truth_kids">
+        <item>your fav color</item>
+        <item>subject you hate</item>
+        <item>name of teacher you hate</item>
+        <item>name of girl you like</item>
+    </string-array>
+
+
+</resources>

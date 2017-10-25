@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bc"
+    tools:context="com.example.akshay.truthdare.select_category">
+
+    <Button
+        android:id="@+id/kids"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kids"
+        android:background="#ffff00"
+        android:layout_marginTop="114dp"
+        android:padding="5dp"
+        android:layout_below="@+id/textView"
+        android:layout_toLeftOf="@+id/textView"
+        android:layout_toStartOf="@+id/textView"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp" />
+
+    <Button
+        android:id="@+id/teens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teens"
+        android:background="#ffff00"
+        android:padding="5dp"
+        android:layout_alignBaseline="@+id/kids"
+        android:layout_alignBottom="@+id/kids"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/adult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adult"
+        android:background="#ffff00"
+        android:padding="5dp"
+        android:layout_alignTop="@+id/kids"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="Select Category"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+</RelativeLayout>
